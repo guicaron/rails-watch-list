@@ -12,6 +12,7 @@ gem "sassc-rails"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
@@ -71,3 +72,4 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem "dotenv-rails", groups: [:development, :test]
